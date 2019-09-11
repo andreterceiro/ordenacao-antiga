@@ -1,0 +1,101 @@
+[Root]
+Most Recent Package=Ordenação 1.0
+
+
+[Package|Ordenação 1.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Projetos\terminados\ordenacao\antiga\Package
+
+[Package|Ordenação 1.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Ordenação 1.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Ordenação 1.0|Files Found]
+
+[Package|Ordenação 1.0|Files Released]
+ajuda.CHI=
+
+[Package|Ordenação 1.0|Missing Dependency Information]
+
+[Package|Ordenação 1.0|Out-of-Date Dependency Information]
+
+[Package|Ordenação 1.0|Files Added]
+D:\Projetos\terminados\ordenacao\antiga\ajuda\ajuda.chm=
+
+[Package|Ordenação 1.0|Files Removed]
+
+[Package|Ordenação 1.0|Files In Project]
+C:\WINDOWS\Desktop\ProjectOrdenacao.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\hhctrl.ocx=Yes
+C:\WINDOWS\SYSTEM\itss.dll=Yes
+C:\WINDOWS\SYSTEM\itircl.dll=Yes
+C:\WINDOWS\SYSTEM\hh.exe=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Projetos\terminados\ordenacao\antiga\ajuda\ajuda.chm=Yes
+
+[Package|Ordenação 1.0|Configure Registry Files]
+Applicable=No
+
+[Package|Ordenação 1.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Ordenação 1.0|Install Locations]
+C:\WINDOWS\Desktop\ProjectOrdenacao.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\hhctrl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\itss.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\itircl.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\hh.exe=$(WinSysPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Arquivos de programas\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Projetos\terminados\ordenacao\antiga\ajuda\ajuda.chm=$(AppPath)\Ajuda
+
+[Package|Ordenação 1.0|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\ProjectOrdenacao.exe=No
+D:\Projetos\terminados\ordenacao\antiga\ajuda\ajuda.chm=No
+
+[Package|Ordenação 1.0|Distribution]
+Type=single
+Size=
+Title=Ordenação
+
+[Package|Ordenação 1.0|IconGroups]
+Group0=Ordenação
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Ordenação 1.0|Ordenação]
+Icon1=ProjectOrdenacao.exe
+Title1=Ordenação 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Ordenação 1.0|Package]
+PackageFolder=D:\Projetos\terminados\ordenacao\antiga\Package
+ProjectFolder=D:\Projetos\terminados\ordenacao\antiga
+ServerSideCab=
+File1=D:\Projetos\terminados\ordenacao\antiga\Package\setup.exe
+File2=D:\Projetos\terminados\ordenacao\antiga\Package\Setup.Lst
+File3=D:\Projetos\terminados\ordenacao\antiga\Package\ProjectOrdenacao.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
